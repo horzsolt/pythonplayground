@@ -1,8 +1,7 @@
 import pandas as pd
-import requests
 import os
 from datetime import datetime
-import urllib
+import urllib.request
 
 def analyze_covid_data():
     CSV_FILE = "owid-covid-data.csv"
